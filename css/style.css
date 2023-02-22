@@ -1,9 +1,9 @@
-@import url(../modules/var.css);
-@import url(../modules/fonts.css);
-@import url(../modules/base.css);
+@import url(../css/modules/var.css);
+@import url(../css/modules/fonts.css);
+@import url(../css/modules/base.css);
 
 /* Sections */
 
-@import url(../modules/header.css);
-@import url(../modules/first.css);
+@import url(../css/modules/header.css);
+@import url(../css/modules/first.css);
 
