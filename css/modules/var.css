@@ -1,0 +1,15 @@
+:root{
+
+    --main-font: 'Montserrat', sans-serif;
+    /*Color*/
+    --light: #FFF;
+    --main-color: #A6A6A6;
+    --main-bg-color: #23252D;
+    --accent-color: #FAA525;
+    --btn-color: #17171E;
+    --title-color: #FFF;
+    /* Sizes */
+    --container-width: 1160px;
+    --container-paddings: 15px; 
+
+}
