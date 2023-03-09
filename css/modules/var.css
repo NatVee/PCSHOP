@@ -8,6 +8,9 @@
     --accent-color: #FAA525;
     --btn-color: #17171E;
     --title-color: #FFF;
+    --active-color: #07070E;
+    --card-bg: #17171E;
+    --new-bg: #660606;
     /* Sizes */
     --container-width: 1160px;
     --container-paddings: 15px; 
