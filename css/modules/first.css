@@ -33,6 +33,7 @@
 }
 .first__content {
     max-width: 466px;
+    margin-right: 114px;
     
     
 }
@@ -81,7 +82,7 @@
 }
 
 
-@media(max-width: 1024px){
+@media(max-width: 768px){
     .first__image{
         display: none;
     }
