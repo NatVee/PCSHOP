@@ -1,0 +1,160 @@
+.review{
+    padding: 100px 0 127px;
+    background-color: var(--main-bg);
+}
+
+.review__body {
+}
+.review__title {
+    text-align: center;
+    max-width: 682px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+
+}
+.review__text {
+    text-align: center;
+    max-width: 682px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 0;
+    
+}
+.review__slider {
+    
+}
+.review-slider {
+    max-width: 996px;
+}
+.review-slider__wrapper {
+    
+}
+.review-slider__slide {
+    
+}
+.review-slide {
+    position: relative;
+    max-width: 488px;
+    min-height: 433px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+}
+.review-slide__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+
+.review-slide__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.review-slide__image::before{
+    content :'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #17171E 22.17%, rgba(23, 23, 30, 0.1) 76.07%, rgba(23, 23, 30, 0.1) 76.07%);
+}
+.review-slide__name {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+
+}
+
+.review-slide__text {
+    padding: 0;
+    margin: 0;
+    color: var(--light);
+    margin-bottom: 38px;
+    /* flex: 1 1 auto; */
+}
+.review-slide__link {
+    color: var(--accent-color);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.review-slide__link::after{
+    content: '';
+    display: inline-block;
+    width: 45px;
+    height: 15px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../img/review/Arrow.svg);
+    margin-left: 15px;
+    transition: all 0.3s;
+}
+
+.review-slide__link:hover{
+    color: var(--light)
+}
+
+.review-slide__link:hover.review-slide__link::after{
+    background-image: url(../../img/review/Arrow-light.svg);
+}
+
+.review-slider__image {
+}
+.review-slider__btn-prev {
+    width: 60px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 5;
+}
+
+.review-slider__btn-next {
+    width: 60px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 5;
+}
+
+.review-slider__btn-prev:hover svg path,
+.review-slider__btn-next:hover svg path{
+    fill: var(--light);
+}
+
+.review-slider__btn-prev svg path,
+.review-slider__btn-next svg path{
+    transition: 0.3s;
+}
+
+
+.review__slider-box{
+    position: relative;
+}
+
+@media(max-width: 768px){
+    .review-slide{
+        max-width: 100%;
+    }
+    .review{
+        padding: 50px 0;
+    }
+}
