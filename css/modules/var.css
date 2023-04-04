@@ -11,6 +11,8 @@
     --active-color: #07070E;
     --card-bg: #17171E;
     --new-bg: #660606;
+    --input-bg: #17171E;
+    --input-text: #A6A6A6;
     /* Sizes */
     --container-width: 1160px;
     --container-paddings: 15px; 
