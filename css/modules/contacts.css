@@ -1,10 +1,10 @@
 .contacts {
+    padding: 120px 0;
     position: relative;
     background: url(/img/contacts/bg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover;   
 }
 
 
@@ -19,7 +19,8 @@
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    z-index: 0;
+
+
 }
 
 .container {
@@ -27,18 +28,18 @@
 .contacts__body {
 }
 .contacts__form {
-    margin: 120px 0;
     padding: 80px 30px;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     max-width: 580px;
-    background: rgba(166, 166, 166, 0.1);  
-    z-index: 1;  
+    background: rgba(166, 166, 166, 0.1); 
+    z-index: 2;
+  
 }
 .contacts__title {
     margin-bottom: 30px;
-    font-size: 31px;
+    font-size: 32px;
 }
 .contats__name {
 }
