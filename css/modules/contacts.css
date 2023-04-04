@@ -41,17 +41,11 @@
 }
 .contacts__title {
     margin-bottom: 30px;
-    font-size: 32px;
 }
 .contats__name {
 }
 .contacts__input {
-    padding: 16px 30px 16px;
     margin-bottom: 25px;
-    color: var(--input-text);
-    background: var(--input-bg);
-    border-radius: 25px;
-    border: none;
 }
 
 .contacts__input::placeholder{
@@ -70,4 +64,15 @@
     padding: 10px 30px;
     max-width: 163px;
     cursor: pointer;
+}
+
+@media(max-width: 768px){
+    .contacts__body{
+        margin: 0 auto;
+        padding: 50px 30px;
+    }
+
+    .contacts{
+        padding: 50px 0;
+    }
 }

@@ -76,6 +76,15 @@ body{
     border: 2px solid transparent;
 }
 
+.input-section{
+    padding: 16px 30px 16px;
+
+    color: var(--input-text);
+    background: var(--input-bg);
+    border-radius: 25px;
+    border: none;
+}
+
 .btn:hover{
     background: transparent;
     border: 2px solid var(--accent-color);
