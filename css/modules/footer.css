@@ -123,6 +123,15 @@
     margin-bottom: 0;
 }
 
+.tel{
+    text-decoration: none;
+    color: var(--light)
+}
+
+.footer__block-lists{
+    display: flex;
+}
+
 .footer__about-list-1 {
     margin: 0;
     padding: 0;
@@ -190,4 +199,113 @@
 
 .footer__up-link img:hover{
     opacity: 0.5;
+}
+
+
+@media(max-width: 1024px){
+
+    .footer{
+        padding-top: 50px;
+    }
+
+    .footer__top{
+        flex-direction: column;
+        margin-bottom: 30px;
+        
+    }
+
+    .footer__company{
+        flex-direction: column;
+    }
+
+    .footer__logo{
+        align-self: center;
+    }
+
+    .footer__company-sites{
+        margin: 0;
+        align-self: center;
+        
+    }
+
+    .footer__company-sites img{
+        align-self: center;
+    }
+
+    .footer__recommend{
+        text-align: center;
+    }
+
+    .footer__subscribe-title{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .footer__subscribe-form{
+        justify-content: center;
+    }
+
+    .footer__center{
+        margin-bottom: 30px;
+        justify-content: center;
+        display: block;
+    }
+
+    .footer__block-lists{
+        justify-content: center;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+
+    }
+
+    .footer__about-list-1,
+    .footer__about-list-2{
+        margin: 0;
+        display: flex;
+        margin-top: 30px;
+        
+    }
+
+    .footer__about-list-2 .footer__about-list__item:last-child{
+        margin-right: 0;
+    }
+
+
+
+    .footer__about-list__item{
+        margin: 0;
+        margin-right: 30px;
+        line-height: 100%;
+    }
+
+    .footer__service-list__item{
+        justify-content: center;
+    }
+
+    .footer__bottom{
+        flex-direction: column;
+        
+    }
+
+    .footer__author{
+        text-align: center;
+    }
+
+    .footer_up{
+        justify-content: center;
+        align-items: center
+    }
+
+    .footer__up-text{
+        display: none
+    }
+
+    .footer__up-link{
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+    
+
 }
